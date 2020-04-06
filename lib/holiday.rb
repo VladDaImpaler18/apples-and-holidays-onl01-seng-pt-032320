@@ -74,6 +74,7 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_each.each do |season, data|
     data.collect do |holiday, supplies|
       supplies=="BBQ"
+    end
   end
 end
 
