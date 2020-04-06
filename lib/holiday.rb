@@ -55,6 +55,7 @@ def all_winter_holiday_supplies(holiday_hash)
       data.each{ |holiday, supplies| totalsupplies << holiday.value.flatten }
     end
   end
+  return totalsupplies
 end
 
 def all_supplies_in_holidays(holiday_hash)
